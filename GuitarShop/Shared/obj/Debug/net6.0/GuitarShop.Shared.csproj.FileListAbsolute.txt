@@ -1,0 +1,14 @@
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\bin\Debug\net6.0\GuitarShop.Shared.deps.json
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\bin\Debug\net6.0\GuitarShop.Shared.runtimeconfig.json
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\bin\Debug\net6.0\GuitarShop.Shared.dll
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\bin\Debug\net6.0\GuitarShop.Shared.pdb
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\obj\Debug\net6.0\GuitarShop.Shared.csproj.AssemblyReference.cache
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\obj\Debug\net6.0\GuitarShop.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\obj\Debug\net6.0\GuitarShop.Shared.AssemblyInfoInputs.cache
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\obj\Debug\net6.0\GuitarShop.Shared.AssemblyInfo.cs
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\obj\Debug\net6.0\GuitarShop.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\obj\Debug\net6.0\GuitarShop.Shared.dll
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\obj\Debug\net6.0\refint\GuitarShop.Shared.dll
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\obj\Debug\net6.0\GuitarShop.Shared.pdb
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\obj\Debug\net6.0\GuitarShop.Shared.genruntimeconfig.cache
+C:\Users\Sahan Rajapaksha\Documents\C#\GuitarShop\GuitarShop\GuitarShop\Shared\obj\Debug\net6.0\ref\GuitarShop.Shared.dll
