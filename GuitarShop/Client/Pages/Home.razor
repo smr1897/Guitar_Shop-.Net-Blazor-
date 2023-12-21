@@ -1,0 +1,154 @@
+﻿@using System.Globalization
+@using Microsoft.Extensions.Options
+
+@layout Emptylayout
+@page "/"
+@inject HttpClient HttpClient
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="css/QuoteAnimation.css"/>
+
+<div class="container-fluid row mb-9">
+    <MudLayout Class="container">
+        <MudAppBar Color="Color.Dark" Elevation="1" Dense="@dense">
+            <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@ToggleDrawer" />
+            <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" Link="https://github.com/MudBlazor/MudBlazor" Target="_blank" />
+            <MudSpacer />
+            <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" Link="https://github.com/MudBlazor/MudBlazor" Target="_blank" />
+        </MudAppBar>
+        <MudDrawer @bind-Open="@open" ClipMode="clipMode" Elevation="1" Variant="@DrawerVariant.Responsive">
+            <MudDrawerHeader>
+                <MudText Typo="Typo.h6">My App</MudText>
+            </MudDrawerHeader>
+            <MudNavMenu>
+                <MudNavLink Match="NavLinkMatch.All">Store</MudNavLink>
+                <MudNavLink Match="NavLinkMatch.All">Library</MudNavLink>
+                <MudNavLink Match="NavLinkMatch.All">Community</MudNavLink>
+            </MudNavMenu>
+        </MudDrawer>
+        @*<MudMainContent Class="pt-16 px-16">
+            <MudContainer Class="mt-6">
+                <MudSelect Label="Select clip mode" @bind-Value="clipMode">
+                    <MudSelectItem Value="@DrawerClipMode.Never">Not clipped (DrawerClipMode.Never)</MudSelectItem>
+                    <MudSelectItem Value="@DrawerClipMode.Docked">Drawer is docked (DrawerClipMode.Docked)</MudSelectItem>
+                    <MudSelectItem Value="@DrawerClipMode.Always">Always (DrawerClipMode.Always)</MudSelectItem>
+                </MudSelect>
+                <MudSwitch @bind-Checked="@dense" Label="Dense appbar" Color="Color.Primary" Style="width:100%;" />
+            </MudContainer>
+        </MudMainContent>*@
+    </MudLayout>
+</div>
+
+<div class="container-fluid mb-5">
+    
+    <div class="row" style="background-color:black;">
+        <div class="col-md">
+            <MudCarousel Class="mud-width-full" ShowArrows="@arrows" Style="height:100vh;" EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle"  TData="object">
+                <MudCarouselItem Transition="Transition.Custom" CustomTransitionEnter="@AnimationEntrance" CustomTransitionExit="@AnimationonExit" Color="@Color.Transparent">
+                    <div class="d-flex flex-column flex-column justify-center" style="height:100%;">
+                       <MudImage Fluid="true" Style="height:100%; width:100%" Class="rounded-lg" Elevation="25" ObjectFit="ImageFit" Src="page_Images/angus1.jpg"/>
+                       <MudText Class="quote-text animation-slide-in" Align="Align.Right" Style="color:aliceblue;font-family:'Agency FB';">I used to run home from school, <br/>pick up my guitar,<br/>and lock myself in my room and play.<br/><p style="margin-right:60px;color:darkred;font-family:'Caveat';">-Angus Young</p></MudText>
+                    </div>
+                </MudCarouselItem>
+                <MudCarouselItem Transition="Transition.Custom" CustomTransitionEnter="@AnimationEntrance" CustomTransitionExit="@AnimationonExit" Color="@Color.Transparent">
+                    <div class="d-flex flex-column flex-column justify-center" style="height:100%;">
+                        <MudImage Fluid="true" Style="height:100%; width:100%" Class="rounded-lg" Elevation="25" ObjectFit="ImageFit" Src="page_Images/hetfield.jpg"/>
+                        <MudText Class="quote-text animation-slide-in" Align="Align.Right" Style="color:aliceblue;font-family:'Agency FB';">I'd like to have a beer-holder on my guitar <br/>like they have on boats.<br/><p style="margin-right:60px;color:darkred;font-family:'Caveat';">-James Hetfield </p></MudText>
+                    </div>
+                </MudCarouselItem>
+                <MudCarouselItem Transition="Transition.Custom" CustomTransitionEnter="@AnimationEntrance" CustomTransitionExit="@AnimationonExit" Color="@Color.Transparent">
+                    <div class="d-flex flex-column flex-column justify-center" style="height:100%;">
+                        <MudImage Fluid="true" Style="height:100%; width:100%" Class="rounded-lg" Elevation="25" ObjectFit="ImageFit" Src="page_Images/dimebag.jpg"/>
+                        <MudText Class="quote-text animation-slide-in" Align="Align.Right" Style="color:aliceblue; font-family:'Agency FB';">The worst advice I ever received from my dad was to play by the book.<br /><p style="margin-right:60px; font-family:'Agency FB';color:darkred;font-family:'Caveat';">-Dimebag Darrell</p></MudText>
+                    </div>    
+                </MudCarouselItem>
+            </MudCarousel>
+            
+
+        </div>
+
+    </div>
+   
+</div>
+
+<section class="sec-1 show-animate">
+    <Animations>
+        <div style="text-align:center;">
+            
+            <h1 style="font-family:Signika;font-size:4rem;color:white;">Welcome to the <span style="font-family:Carter One;color:crimson;">Guitar Shop</span></h1>
+            <p class="setmiddle">Explore a world of musical excellence at the Guitar Shop. Discover a wide range of high-quality guitars, accessories, and more.Whether you're a seasoned musician or just starting your musical journey, we have something for everyone. Dive into the melody and find the perfect instrument to express your musical passion.</p>
+            
+        </div>
+    </Animations>
+</section>
+
+<div class="container-fluid c-1" data-aos="fade-right" delay-aos-delay="50" data-aos-easing="ease-in-out" data-aos-duration="1000">
+    <img class="c-image" src="page_Images/accousticguitar.jpg"/>
+    <div class="c-body" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <h1 class="c-title"><a href="/accoustic">Accoustic Guitars</a></h1>
+        <p class="c-description">“It's amazing what the acoustic guitar can bring to the picture.”<br />- John Waite</p>
+    </div>
+</div>
+
+<div class="container-fluid c-2" data-aos="fade-left" delay-aos-delay="50" data-aos-easing="ease-in-out" data-aos-duration="1000">
+    <img class="c-image" src="page_Images/electricguitar.jpg"/>
+    <div class="c-body" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <h1 class="c-title"><a href="/electric">Electric Guitars</a></h1>
+        <p class="c-description">“I do some solo, acoustic stuff, <br />but I also like plugging in my electric guitar and playing loud with a band.”<br />- James Bay</p>
+    </div>
+</div>
+
+<div class="container-fluid c-3" data-aos="fade-right" delay-aos-delay="50" data-aos-easing="ease-in-out" data-aos-duration="1000">
+    <img class="c-image" src="page_Images/bassguitar.jpg"/>
+    <div class="c-body" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <h1 class="c-title"><a href="/bass">Bass</a></h1>
+        <p class="c-description">“Guitar is for the head, drums are for the chest,<br />  but bass gets you in the groin”<br />- Suzi Quatro</p>
+    </div>
+</div>
+
+<div class="container-fluid c-4" data-aos="fade-left" delay-aos-delay="50" data-aos-easing="ease-in-out" data-aos-duration="1000">
+    <img class="c-image" src="page_Images/piano.jpg"/>
+    <div class="c-body" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <h1 class="c-title"><a href="/piano&keyboards">Piano & Keyboards</a></h1>
+        <p class="c-description">“The piano is a monster that screams when you touch its teeth.”<br />- Andre Segovia</p>
+    </div>
+</div>
+
+<div class="container-fluid c-4" data-aos="fade-left" delay-aos-delay="50" data-aos-easing="ease-in-out" data-aos-duration="1000">
+    <img class="c-image" src="page_Images/Drums.jpg"/>
+    <div class="c-body" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <h1 class="c-title"><a href="/accesories">Drums & Precussion</a></h1>
+        <p class="c-description">“Playing drums, for me, is like breathing. It's like thinking. It's like eating. It's like walking.”<br />- Joey Jordison</p>
+    </div>
+</div>
+
+<div class="container-fluid c-4" data-aos="fade-left" delay-aos-delay="50" data-aos-easing="ease-in-out" data-aos-duration="1000">
+    <img class="c-image" src="page_Images/tshirt.jpg"/>
+    <div class="c-body" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <h1 class="c-title"><a href="/accesories">Guitarist's Things'</a></h1>
+        <p class="c-description">“Want to know how guitarists look so cool ? ”<br />- Andre Segovia</p>
+    </div>
+</div>
+
+
+
+@code{
+    private bool arrows = false;
+    private bool enableSwipeGesture = true;
+    private bool autocycle = false;
+    private Transition transition = Transition.Fade;
+
+    ObjectFit ImageFit = ObjectFit.Contain;
+
+    private string AnimationEntrance = "fadeIn";
+    private string AnimationonExit = "fadeOut";
+
+    bool open = false;
+    bool dense = false;
+    DrawerClipMode clipMode = DrawerClipMode.Never;
+
+    void ToggleDrawer()
+    {
+        open = !open;
+    }
+}

@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Pages/Animations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWF0aW9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,8 +32,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Pages/ProductPages/Accoustic.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFBhZ2VzXEFjY291c3RpYy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Pages/ProductPages/Bass.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFBhZ2VzXEJhc3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Pages/ProductPages/Electric.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFBhZ2VzXEVsZWN0cmljLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Pages/ProductPages/Piano&Keyboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFBhZ2VzXFBpYW5vJktleWJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Pages/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Shared/Emptylayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVtcHR5bGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Sahan Rajapaksha/Documents/C\#/GuitarShop/GuitarShop/GuitarShop/Client/Shared/SurveyPrompt.razor]

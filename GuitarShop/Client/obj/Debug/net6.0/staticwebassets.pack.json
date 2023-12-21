@@ -13,6 +13,446 @@
       "PackagePath": "staticwebassets\\GuitarShop.Client.styles.css"
     },
     {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\capo1.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\capo1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\capo2.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\capo2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\capo3.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\capo3.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\capo4.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\capo4.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\capo5.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\capo5.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\strings1.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\strings1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\strings2.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\strings2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\strings3.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\strings3.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\strings4.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\strings4.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\strings5.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\strings5.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\tuner1.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\tuner1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\tuner2.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\tuner2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\tuner3.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\tuner3.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\tuner4.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\tuner4.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Accessories\\tuner5.png",
+      "PackagePath": "staticwebassets\\Images\\Accessories\\tuner5.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\epiphone-thunderbird.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\epiphone-thunderbird.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\esp-ltd-b1004se.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\esp-ltd-b1004se.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\fender-jazz.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\fender-jazz.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\fender-precision.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\fender-precision.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\fodera-emperor.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\fodera-emperor.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\gibson-thunderbird.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\gibson-thunderbird.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\hofner-ignition.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\hofner-ignition.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\ibanez-sr500.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\ibanez-sr500.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\music-man-stingray.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\music-man-stingray.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\rickenbacker-4003.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\rickenbacker-4003.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\schecter-stiletto.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\schecter-stiletto.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\sire-marcus-miller.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\sire-marcus-miller.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\squier-jazz.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\squier-jazz.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\warwick-corvette.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\warwick-corvette.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\BassGuitars\\yamaha-bb434.png",
+      "PackagePath": "staticwebassets\\Images\\BassGuitars\\yamaha-bb434.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\acetone1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\acetone1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\crumar1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\crumar1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\farfisa1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\farfisa1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\gem1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\gem1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\hammond1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\hammond1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\hammond2.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\hammond2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\kawai1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\kawai1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\korg1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\korg1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\kurzweil1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\kurzweil1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\nord1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\nord1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\nord2.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\nord2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\nord3.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\nord3.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\roland1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\roland1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\viscount1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\viscount1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\ComboOrgans\\vox1.png",
+      "PackagePath": "staticwebassets\\Images\\ComboOrgans\\vox1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\blueridge-br160.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\blueridge-br160.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\breedlove-discovery.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\breedlove-discovery.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\carvel1.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\carvel1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\collings-om.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\collings-om.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\epiphone-masterbilt.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\epiphone-masterbilt.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\epiphone.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\epiphone.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\epiphone1.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\epiphone1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\epiphone2.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\epiphone2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\fender-paramount.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\fender-paramount.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\fender1.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\fender1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\fender2.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\fender2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\fendertel1.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\fendertel1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\gibson-hummingbird.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\gibson-hummingbird.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\gibson-j45.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\gibson-j45.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\gibson1.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\gibson1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\gison2.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\gison2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\gretsch1.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\gretsch1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\gretsch2.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\gretsch2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\guild-f50.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\guild-f50.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\ibanez1.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\ibanez1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\martin-00018.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\martin-00018.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\martin-d41.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\martin-d41.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\orangewood-omd22.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\orangewood-omd22.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\prs1.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\prs1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\rickenbacker1.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\rickenbacker1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\santa-cruz.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\santa-cruz.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\schecter2.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\schecter2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\seagull-s6.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\seagull-s6.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\taylor-814ce.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\taylor-814ce.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Guitars\\yamaha-fg800j.png",
+      "PackagePath": "staticwebassets\\Images\\Guitars\\yamaha-fg800j.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\HomePageWallpapers\\wallpaper1.jpg",
+      "PackagePath": "staticwebassets\\Images\\HomePageWallpapers\\wallpaper1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\bechstein1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\bechstein1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\bechstein2.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\bechstein2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\bluthner1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\bluthner1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\bosendorfer1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\bosendorfer1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\casio1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\casio1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\fazioli1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\fazioli1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\kawai1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\kawai1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\kawai2.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\kawai2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\korg1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\korg1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\nord1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\nord1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\roland1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\roland1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\steinway1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\steinway1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\yamaha1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\yamaha1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\yamaha2.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\yamaha2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Pianos\\youngchang1.png",
+      "PackagePath": "staticwebassets\\Images\\Pianos\\youngchang1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\access1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\access1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\arturia1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\arturia1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\behringer1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\behringer1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\davesmith1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\davesmith1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\davesmith2.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\davesmith2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\korg1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\korg1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\korg2.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\korg2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\modal1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\modal1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\moog1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\moog1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\nord1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\nord1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\novation1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\novation1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\roland1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\roland1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\sequential1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\sequential1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\waldorf1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\waldorf1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Images\\Synthesizers\\yamaha1.png",
+      "PackagePath": "staticwebassets\\Images\\Synthesizers\\yamaha1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Scripts\\Carousel.js",
+      "PackagePath": "staticwebassets\\Scripts\\Carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\Scripts\\aosInit.js",
+      "PackagePath": "staticwebassets\\Scripts\\aosInit.js"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\css\\QuoteAnimation.css",
+      "PackagePath": "staticwebassets\\css\\QuoteAnimation.css"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\css\\accoustic.css",
+      "PackagePath": "staticwebassets\\css\\accoustic.css"
+    },
+    {
       "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
@@ -61,6 +501,10 @@
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\css\\test.css",
+      "PackagePath": "staticwebassets\\css\\test.css"
+    },
+    {
       "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -71,6 +515,70 @@
     {
       "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\Drums.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\Drums.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\accesory.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\accesory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\accousticguitar.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\accousticguitar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\alexi.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\alexi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\angus.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\angus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\angus1.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\angus1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\bassguitar.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\bassguitar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\dimebag.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\dimebag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\electricguitar.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\electricguitar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\gates.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\gates.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\hetfield.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\hetfield.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\piano.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\piano.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\sellaccousticguitar.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\sellaccousticguitar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\shopaccoustic.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\shopaccoustic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\shopaccousticoverseas.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\shopaccousticoverseas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sahan Rajapaksha\\Documents\\C#\\GuitarShop\\GuitarShop\\GuitarShop\\Client\\wwwroot\\page_Images\\tshirt.jpg",
+      "PackagePath": "staticwebassets\\page_Images\\tshirt.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.GuitarShop.Client.Microsoft.AspNetCore.StaticWebAssets.props",

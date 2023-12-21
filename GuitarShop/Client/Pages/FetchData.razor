@@ -1,6 +1,6 @@
 ﻿@page "/fetchdata"
 @using GuitarShop.Shared
-@inject HttpClient Http
+@inject HttpClient HttpClient
 
 <PageTitle>Weather forecast</PageTitle>
 
@@ -8,7 +8,7 @@
 
 <p>This component demonstrates fetching data from the server.</p>
 
-@if (forecasts == null)
+@if (products == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -17,20 +17,28 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>ImageUrl</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Category Id</th>
+                <th>SubCategory Id</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var product in products)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Description</td>
+                    <td>@product.ImageUrl</td>
+                    <td>@product.Quantity</td>
+                    <td>@product.Price</td>
+                    <td>@product.CategoryId</td>
+                    <td>@product.SubCategoryId</td>
                 </tr>
             }
         </tbody>
@@ -38,10 +46,28 @@ else
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
+    private Product[]? products;//The ? indicates that the array can be nullable
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        Console.WriteLine("ok");
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        using (var httpClient = new HttpClient())
+        {
+            var response = await httpClient.GetAsync("https://localhost:7237/api/product");
+
+            if (response.IsSuccessStatusCode)
+            {
+                products = await response.Content.ReadFromJsonAsync<Product[]>();
+            }
+            else
+            {
+                Console.WriteLine($"Error : {response.StatusCode}");
+            }
+        }
     }
 }

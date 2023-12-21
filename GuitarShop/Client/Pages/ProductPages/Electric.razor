@@ -1,0 +1,139 @@
+﻿@using System.Globalization
+@using Microsoft.Extensions.Options
+@using GuitarShop.Shared
+
+@layout Emptylayout
+@page "/electric"
+@inject HttpClient HttpClient
+@inject IJSRuntime JavaScript
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="css/accoustic.css" />
+<link rel="stylesheet" href="/css/test.css" />
+
+<div class="container-fluid row mb-9">
+    <MudLayout Class="container">
+        <MudAppBar Color="Color.Dark" Elevation="1" Dense="@dense">
+            <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@ToggleDrawer" />
+            <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" Link="https://github.com/MudBlazor/MudBlazor" Target="_blank" />
+            <MudSpacer />
+            <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" Link="https://github.com/MudBlazor/MudBlazor" Target="_blank" />
+        </MudAppBar>
+        <MudDrawer @bind-Open="@open" ClipMode="clipMode" Elevation="1" Variant="@DrawerVariant.Responsive">
+            <MudDrawerHeader>
+                <MudText Typo="Typo.h6">My App</MudText>
+            </MudDrawerHeader>
+            <MudNavMenu>
+                <MudNavLink Match="NavLinkMatch.All">Store</MudNavLink>
+                <MudNavLink Match="NavLinkMatch.All">Library</MudNavLink>
+                <MudNavLink Match="NavLinkMatch.All">Community</MudNavLink>
+            </MudNavMenu>
+        </MudDrawer>
+        @*<MudMainContent Class="pt-16 px-16">
+            <MudContainer Class="mt-6">
+                <MudSelect Label="Select clip mode" @bind-Value="clipMode">
+                    <MudSelectItem Value="@DrawerClipMode.Never">Not clipped (DrawerClipMode.Never)</MudSelectItem>
+                    <MudSelectItem Value="@DrawerClipMode.Docked">Drawer is docked (DrawerClipMode.Docked)</MudSelectItem>
+                    <MudSelectItem Value="@DrawerClipMode.Always">Always (DrawerClipMode.Always)</MudSelectItem>
+                </MudSelect>
+                <MudSwitch @bind-Checked="@dense" Label="Dense appbar" Color="Color.Primary" Style="width:100%;" />
+            </MudContainer>
+        </MudMainContent>*@
+    </MudLayout>
+</div>
+
+<div class="container-fluid row c">
+    <div class="c-1" data-aos="zoom-in" data-aos-easing="ease-in-out">
+        <img class="c-image" src="page_Images/shopaccoustic.jpg"/>
+        <div class="c-body" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="800" data-aos-delay="200">
+            <h1 class="c-title"><a href="#">From Our Store</a></h1>
+            <p class="c-description">“Nothing smells better than a brand new accoustic guitar .”</p>
+        </div>
+    </div>
+    <div class="c-1" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="200">
+        <img class="c-image" src="page_Images/shopaccousticoverseas.jpg"/>
+        <div class="c-body" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300">
+            <h1 class="c-title"><a href="#">From Overseas</a></h1>
+            <p class="c-description">“Going international is always a better choice .”</p>
+        </div>
+    </div>
+    <div class="c-1" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="300">
+        <img class="c-image" src="page_Images/sellaccousticguitar.jpg"/>
+        <div class="c-body" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1200" data-aos-delay="400">
+            <h1 class="c-title"><a href="#">Sell Yours</a></h1>
+            <p class="c-description">“Login , post an Ad , Then let us take care the rest .”</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    @for(int i = 0; i<products.Length; i += 4)
+    {
+        <div class="row">
+            @for(int j = i; j < i + 4 && j < products.Length; j++)
+            {
+                <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="@products[j].ImageUrl">
+                    <img class="pic-2" src="@products[j].ImageUrl">
+                </a>
+                <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                <ul class="product-links">
+                    <li><a href="#"><i class="far fa-heart"></i></a></li>
+                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                    <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                </ul>
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a href="#">Men's Shirt</a></h3>
+                <div class="price">$78.80</div>
+            </div>
+        </div>
+    </div>
+            }
+        </div>
+    }
+</div>
+
+
+@code {
+    bool open = false;
+    bool dense = false;
+    DrawerClipMode clipMode = DrawerClipMode.Never;
+
+    void ToggleDrawer()
+    {
+        open = !open;
+    }
+
+    public int spacing { get; set; } = 1;
+
+    private Product[]? products;//The ? indicates that the array can be nullable
+
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine("ok");
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        using(var httpClient = new HttpClient())
+        {
+            var response = await httpClient.GetAsync("https://localhost:7237/api/product/electricguitars");
+
+            if(response.IsSuccessStatusCode)
+            {
+                products = await response.Content.ReadFromJsonAsync<Product[]>();
+            }
+            else
+            {
+                Console.WriteLine($"Error : {response.StatusCode}");
+            }
+        }
+    }
+}
+

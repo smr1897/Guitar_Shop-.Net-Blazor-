@@ -1,0 +1,22 @@
+﻿@using System.Globalization
+@using Microsoft.Extensions.Options
+
+<div data-aos="@_animationName" data-aos-delay="@_delay" data-aos-duration="@_duration">
+    @childContent
+</div>
+
+@code {
+    private string _animationName = "";
+    private string _delay = "";
+    private string _duration = "";
+
+    [Parameter]
+    public RenderFragment childContent { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        _animationName = "zoom-in";
+        _duration = "15000";
+        _delay = "100";
+    }
+}
